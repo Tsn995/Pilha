@@ -1,0 +1,123 @@
+*{
+    margin: 0; /*espaço da tag para fora (externa) */
+    padding: 0; /* espaço interno da tag*/
+    color:#666;
+    font-family: monospace; /* Mudar a style da fonte*/
+}
+header{
+    text-align: center; /* centralizar o texto*/
+    padding: 10px;
+}
+header > h1{
+    font-size: 34px; /*Aumentar a fonte do texto*/
+}
+header > h3{
+    font-size: 16px;
+}
+#Rodape{
+    padding: 10px;
+    background-color: darkgray;
+    color: black;
+    font-size: 15px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    float: left;
+    clear: top;
+}
+#control{
+    text-align: center;
+    padding: 20px;
+}
+#control-input > input{
+    width: 370px;
+    font-size: 34px;
+}
+#control-button {
+    padding-top: 15px;
+}
+#control-button > button {
+    color: white;
+    border: none;
+    width: 110px;
+    height: 35px;
+    font-size: 18px;
+    box-shadow: 6px 7px 15px -5px rgba(122,109,122,1); /* Faz a sombra nos buttons*/
+    border-radius: 5px;
+    cursor: pointer;
+}
+#control-button > button:hover {
+    background-color: rgb(198, 198, 198);
+}
+.btnPush{
+    background-color: #78D481;
+}
+.btnPop{
+    background-color: #D47878;
+}
+.btnClear{
+    background-color: #7F78D4;
+}
+.card{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+    box-shadow: 3px 5px 15px -5px rgba(122,109,122,1); /* Faz a sombra nos buttons*/
+    
+}
+.card > header{
+    border-bottom: 1px solid #E5E5E5;
+}
+.card > section{
+    min-height: 50vh; 
+}
+#cardCreditos{
+    width: 150px;
+    float: left;
+    clear: right;
+}
+ul{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+li{
+    padding: 5px;
+}
+.bodyVisualization{
+    text-align: center;
+}
+#pilha{
+    margin-top: 10px;
+    width: 80px;
+    margin-left: calc(50% - 40px);
+    text-align: center;
+}
+.item{
+    font-size: 25px;
+    padding: 15px;
+    border: 1px solid #e5e5e5;
+}
+#pilha div:first-child{
+    color: black;
+    background-color: #3afc0a;
+}
+#pilha div:last-child{
+    color: black;
+    background-color: #df0b2f;
+}
+#info{
+    clear: both;
+}
+.ulCredito{
+    text-align: left;
+    width: 120px;
+}
+#credits{
+    padding-bottom: 50px;
+}
+.credits{
+    font-size: 15px;
+    text-align: center;
+}
